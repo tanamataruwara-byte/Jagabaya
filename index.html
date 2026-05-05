@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="jv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jagabaya - Crita Jawa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- ══════════════════════════════════════BATIK CANVAS START══════════════════════════════════════-->
+  <canvas id="batikCanvas"></canvas>
+  <!-- ══════════════════════════════════════BATIK CANVAS END══════════════════════════════════════-->
+
+  <!-- ══════════════════════════════════════CURSOR START══════════════════════════════════════ -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <!-- ══════════════════════════════════════CURSOR END══════════════════════════════════════ -->
+
+  <!-- ══════════════════════════════════════NAVBAR START══════════════════════════════════════  -->
+  <nav class="navbar-jagabaya" id="mainNav">
+    <div class="container nav-container">
+        <a href="#pambuka" class="brand-text text-decoration-none">
+          Jagabaya
+          <span class="brand-sub">Crita · Budaya · Basa Jawa</span>
+        </a>
+
+        <!-- Burger Icon Start -->
+        <button class="nav-burger" id="navBurger" type="button" aria-label="Buka Menu Navigasi" aria-controls="navMenu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <!-- Burger Icon End -->
+
+        <div class="nav-links" id="navMenu">
+          <a href="#pambuka" class="nav-link-custom">Pambuka</a>
+          <a href="#crita" class="nav-link-custom">Crita</a>
+          <a href="#kuis" class="nav-link-custom">Kuis</a>
+          <a href="#kamus" class="nav-link-custom">Kamus</a>
+        </div>
+
+        
+      </div>
+      <div class="nav-batik-strip"></div>
+  </nav>
+  <!-- ══════════════════════════════════════NAVBAR END══════════════════════════════════════  -->
+
+  <!-- ══════════════════════════════════════HERO START══════════════════════════════════════ -->
+    <section class="hero" id="pambuka">
+      <!-- Rotating mandala rings start -->
+      <div class="mandala-wrap">
+        <div class="mandala-ring ring-1"></div>
+        <div class="mandala-ring ring-2"></div>
+        <div class="mandala-ring ring-3"></div>
+        <div class="mandala-ring ring-4"></div>
+        <!-- SVG Batik Mandala Center -->
+      <svg class="mandala-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(100,100)">
+          <!-- Inner petals -->
+          <g class="mandala-petal-group">
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(0)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(45)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(90)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(135)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(180)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(225)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(270)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(315)"/>
+          </g>
+          <!-- Middle ring dots -->
+          <g class="mandala-dots">
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(50,0)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,35)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,50)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,35)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-50,0)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,-35)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,-50)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,-35)"/>
+          </g>
+          <!-- Center circle -->
+          <circle r="10" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8"/>
+          <circle r="4" fill="#C8960C" opacity="0.5"/>
+        </g>
+      </svg>
+    </div>
+
+    <!-- Bottom batik wave -->
+    <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,60 C180,110 360,10 540,60 C720,110 900,10 1080,60 C1260,110 1350,30 1440,60 L1440,120 L0,120 Z" fill="#2C1810"/>
+      <path d="M0,75 C200,110 400,30 600,75 C800,120 1000,30 1200,75 C1300,100 1370,50 1440,75 L1440,120 L0,120 Z" fill="#1a0a00" opacity="0.6"/>
+    </svg>
+    </div>
+    <!-- Rotating mandala rings end -->
+    
+    <div class="hero-content">
+        <p class="hero-kecil reveal-up">✦ Koleksi Crita Rakyat Jawa ✦</p>
+        <h1 class="hero-judul reveal-up delay-1">Jaga<span>baya</span></h1>
+        <div class="hero-divider reveal-up delay-2"></div> 
+        <p class="hero-desc reveal-up delay-2">Kilas balik menyang donya dongeng Jawa — cerita rakyat, gambar ilustrasi, lan kamus basa.</p>
+        <a href="#crita" class="btn-jawa reveal-up delay-3">Wiwiti Maca ↓</a>
+      </div>
+
+    <!-- floating particles start -->
+    <div class="particles" id="particles"></div>
+    <!-- floating particles end -->
+    </section>
+  <!-- ══════════════════════════════════════HERO END══════════════════════════════════════ -->
+
+  <!-- ══════════════════════════════════════
+       SCROLL TO TOP
+  ══════════════════════════════════════ -->
+  <button class="scroll-top" id="scrollTop" aria-label="Bali ndhuwur">↑</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
