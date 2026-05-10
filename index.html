@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="jv">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jagabaya - Crita Jawa</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Lora:ital,wght@0,400;0,600;1,400&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <!-- ══════════════════════════════════════BATIK CANVAS START══════════════════════════════════════-->
   <canvas id="batikCanvas"></canvas>
@@ -21,112 +26,327 @@
   <!-- ══════════════════════════════════════NAVBAR START══════════════════════════════════════  -->
   <nav class="navbar-jagabaya" id="mainNav">
     <div class="container nav-container">
-        <a href="#pambuka" class="brand-text text-decoration-none">
-          Jagabaya
-          <span class="brand-sub">Crita · Budaya · Basa Jawa</span>
-        </a>
+      <a href="#pambuka" class="brand-text text-decoration-none">
+        Jagabaya
+        <span class="brand-sub">Crita · Budaya · Basa Jawa</span>
+      </a>
 
-        <!-- Burger Icon Start -->
-        <button class="nav-burger" id="navBurger" type="button" aria-label="Buka Menu Navigasi" aria-controls="navMenu" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <!-- Burger Icon End -->
+      <!-- Burger Icon Start -->
+      <button class="nav-burger" id="navBurger" type="button" aria-label="Buka Menu Navigasi" aria-controls="navMenu"
+        aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <!-- Burger Icon End -->
 
-        <div class="nav-links" id="navMenu">
-          <a href="#pambuka" class="nav-link-custom">Pambuka</a>
-          <a href="#crita" class="nav-link-custom">Crita</a>
-          <a href="#kuis" class="nav-link-custom">Kuis</a>
-          <a href="#kamus" class="nav-link-custom">Kamus</a>
-        </div>
-
-        
+      <div class="nav-links" id="navMenu">
+        <a href="#pambuka" class="nav-link-custom">Pambuka</a>
+        <a href="#crita" class="nav-link-custom">Crita</a>
+        <a href="#kuis" class="nav-link-custom">Kuis</a>
+        <a href="#kamus" class="nav-link-custom">Kamus</a>
       </div>
-      <div class="nav-batik-strip"></div>
+
+
+    </div>
+    <div class="nav-batik-strip"></div>
   </nav>
   <!-- ══════════════════════════════════════NAVBAR END══════════════════════════════════════  -->
 
   <!-- ══════════════════════════════════════HERO START══════════════════════════════════════ -->
-    <section class="hero" id="pambuka">
-      <!-- Rotating mandala rings start -->
-      <div class="mandala-wrap">
-        <div class="mandala-ring ring-1"></div>
-        <div class="mandala-ring ring-2"></div>
-        <div class="mandala-ring ring-3"></div>
-        <div class="mandala-ring ring-4"></div>
-        <!-- SVG Batik Mandala Center -->
+  <section class="hero" id="pambuka">
+    <!-- Rotating mandala rings start -->
+    <div class="mandala-wrap">
+      <div class="mandala-ring ring-1"></div>
+      <div class="mandala-ring ring-2"></div>
+      <div class="mandala-ring ring-3"></div>
+      <div class="mandala-ring ring-4"></div>
+      <!-- SVG Batik Mandala Center -->
       <svg class="mandala-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
         <g transform="translate(100,100)">
           <!-- Inner petals -->
           <g class="mandala-petal-group">
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(0)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(45)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(90)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(135)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(180)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(225)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(270)"/>
-            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6" transform="rotate(315)"/>
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(0)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(45)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(90)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(135)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(180)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(225)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(270)" />
+            <ellipse rx="8" ry="30" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"
+              transform="rotate(315)" />
           </g>
           <!-- Middle ring dots -->
           <g class="mandala-dots">
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(50,0)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,35)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,50)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,35)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-50,0)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,-35)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,-50)"/>
-            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,-35)"/>
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(50,0)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,35)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,50)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,35)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-50,0)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(-35,-35)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(0,-50)" />
+            <circle r="2" fill="#C8960C" opacity="0.7" transform="translate(35,-35)" />
           </g>
           <!-- Center circle -->
-          <circle r="10" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8"/>
-          <circle r="4" fill="#C8960C" opacity="0.5"/>
+          <circle r="10" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8" />
+          <circle r="4" fill="#C8960C" opacity="0.5" />
         </g>
       </svg>
     </div>
 
     <!-- Bottom batik wave -->
     <svg class="hero-wave" viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0,60 C180,110 360,10 540,60 C720,110 900,10 1080,60 C1260,110 1350,30 1440,60 L1440,120 L0,120 Z" fill="#2C1810"/>
-      <path d="M0,75 C200,110 400,30 600,75 C800,120 1000,30 1200,75 C1300,100 1370,50 1440,75 L1440,120 L0,120 Z" fill="#1a0a00" opacity="0.6"/>
+      <path d="M0,60 C180,110 360,10 540,60 C720,110 900,10 1080,60 C1260,110 1350,30 1440,60 L1440,120 L0,120 Z"
+        fill="#2C1810" />
+      <path d="M0,75 C200,110 400,30 600,75 C800,120 1000,30 1200,75 C1300,100 1370,50 1440,75 L1440,120 L0,120 Z"
+        fill="#1a0a00" opacity="0.6" />
     </svg>
-    </div>
     <!-- Rotating mandala rings end -->
-    
+
     <div class="hero-content">
-        <p class="hero-kecil reveal-up">✦ Koleksi Crita Rakyat Jawa ✦</p>
-        <h1 class="hero-judul reveal-up delay-1">Jaga<span>baya</span></h1>
-        <div class="hero-divider reveal-up delay-2"></div> 
-        <p class="hero-desc reveal-up delay-2">Kilas balik menyang donya dongeng Jawa — cerita rakyat, gambar ilustrasi, lan kamus basa.</p>
-        <a href="#crita" class="btn-jawa reveal-up delay-3">Wiwiti Maca ↓</a>
-      </div>
+      <p class="hero-kecil reveal-up">✦ Koleksi Crita Rakyat Jawa ✦</p>
+      <h1 class="hero-judul reveal-up delay-1">Jaga<span>baya</span></h1>
+      <div class="hero-divider reveal-up delay-2"></div>
+      <p class="hero-desc reveal-up delay-2">Kilas balik menyang donya dongeng Jawa — cerita rakyat, gambar ilustrasi,
+        lan kamus basa.</p>
+      <a href="#crita" class="btn-jawa reveal-up delay-3">Wiwiti Maca ↓</a>
+    </div>
 
     <!-- floating particles start -->
     <div class="particles" id="particles"></div>
     <!-- floating particles end -->
-    </section>
+  </section>
   <!-- ══════════════════════════════════════HERO END══════════════════════════════════════ -->
 
-<!-- cerita START══════════════════════════════════════ -->
-<section id="crita" class="section-wrapper">
-<!-- batik top border -->
-  <div class="batik-border top"></div>
 
-<div class="container">
-  
-</div>
+  <!-- section cerita START══════════════════════════════════════ -->
+  <section id="crita" class="section-wrapper">
+    <!-- batik top border -->
+    <div class="batik-border top"></div>
 
-</section>
-<!-- cerita END══════════════════════════════════════ -->
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label scroll-reveal">✦ Koleksi Dongeng ✦</p>
+        <h2 class="section-title scroll-reveal">Crita Rakyat</h2>
+        <div class="section-ornament scroll-reveal">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="10" x2="70" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5" />
+            <circle cx="80" cy="10" r="2" fill="#C8960C" opacity="0.7" />
+            <circle cx="90" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7" />
+            <circle cx="100" cy="10" r="6" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8" />
+            <circle cx="100" cy="10" r="2" fill="#C8960C" />
+            <circle cx="110" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7" />
+            <circle cx="120" cy="10" r="2" fill="#C8960C" opacity="0.7" />
+            <line x1="130" y1="10" x2="200" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5" />
+          </svg>
+        </div>
+      </div>
+
+      <!--filter kategori start-->
+      <div class="kategori-bar scroll-reveal" id="filteBar">
+        <button class="pill-kategori aktif" data-kat="">Kabeh Cerita</button>
+        <button class="pill-kategori" data-kat="petualangan">⚔️ Petualangan</button>
+        <button class="pill-kategori" data-kat="asal-usul">🏛️ Asal-Usul</button>
+        <button class="pill-kategori" data-kat="romantis">💛 Romantis</button>
+        <button class="pill-kategori" data-kat="mitologi">✨ Mitologi</button>
+      </div>
+      <!--filter kategori end-->
+      <div class="cerita-grid" id="ceritaGrid"></div>
+    </div>
+
+    <div class="batik-boreder Bottom"></div>
+
+  </section>
+  <!-- section cerita END══════════════════════════════════════ -->
+
+   <!-- ══════════════════════════════════════
+       SECTION: KUIS
+  ══════════════════════════════════════ -->
+  <section id="kuis" class="section-wrapper quiz-teaser-section">
+    <div class="batik-border top"></div>
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label scroll-reveal">✦ Ujian Kawruh ✦</p>
+        <h2 class="section-title scroll-reveal">Sinau Jawa</h2>
+        <div class="section-ornament scroll-reveal">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="10" x2="70" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5"/>
+            <circle cx="80" cy="10" r="2" fill="#C8960C" opacity="0.7"/>
+            <circle cx="90" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7"/>
+            <circle cx="100" cy="10" r="6" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8"/>
+            <circle cx="100" cy="10" r="2" fill="#C8960C"/>
+            <circle cx="110" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7"/>
+            <circle cx="120" cy="10" r="2" fill="#C8960C" opacity="0.7"/>
+            <line x1="130" y1="10" x2="200" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5"/>
+          </svg>
+        </div>
+      </div>
+      <!-- Level Cards Row -->
+      <div class="quiz-level-row scroll-reveal" id="quizLevelRow"></div>
+      <!-- Stats & CTA -->
+      <div class="quiz-start-wrap scroll-reveal">
+        <div class="quiz-total-xp" id="quizTotalXp">✦ 0 XP</div>
+        <button class="quiz-start-btn" id="quizStartBtn">✦ Wiwiti Kuis ✦</button>
+        <p class="quiz-desc">5 Level · 40 Soal · 3 Nyawa per Level</p>
+      </div>
+    </div>
+    <div class="batik-border bottom"></div>
+  </section>
+
+
+
+  <!--=====section kamus start===============-->
+  <section id="kamus" class="section-wrapper kamus-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-label scroll-reveal">✦ Glosarium ✦</p>
+        <h2 class="section-title scroll-reveal">Kamus Kata Sulit</h2>
+        <div class="section-ornament scroll-reveal">
+          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0" y1="10" x2="70" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5" />
+            <circle cx="80" cy="10" r="2" fill="#C8960C" opacity="0.7" />
+            <circle cx="90" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7" />
+            <circle cx="100" cy="10" r="6" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8" />
+            <circle cx="100" cy="10" r="2" fill="#C8960C" />
+            <circle cx="110" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7" />
+            <circle cx="120" cy="10" r="2" fill="#C8960C" opacity="0.7" />
+            <line x1="130" y1="10" x2="200" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div class="kamus-search-wrap scroll-reveal">
+        <span class="kamus-search-icon">⌕</span>
+        <input type="text" class="kamus-search" id="kamusSearch" placeholder="Telusuri tembung...">
+        <div class="kamus-search-line"></div>
+      </div>
+
+      <div class="kamus-grid" id="kamusGrid"></div>
+    </div>
+  </section>
+  <!--=====section kamus end===============-->
+
+<!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer class="footer-jawa">
+    <!-- Batik top decoration -->
+    <div class="footer-batik-top">
+      <svg viewBox="0 0 1440 40" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0,20 L60,5 L120,20 L180,5 L240,20 L300,5 L360,20 L420,5 L480,20 L540,5 L600,20 L660,5 L720,20 L780,5 L840,20 L900,5 L960,20 L1020,5 L1080,20 L1140,5 L1200,20 L1260,5 L1320,20 L1380,5 L1440,20"
+          fill="none" stroke="#C8960C" stroke-width="1" opacity="0.4"/>
+        <path d="M0,30 L60,15 L120,30 L180,15 L240,30 L300,15 L360,30 L420,15 L480,30 L540,15 L600,30 L660,15 L720,30 L780,15 L840,30 L900,15 L960,30 L1020,15 L1080,30 L1140,15 L1200,30 L1260,15 L1320,30 L1380,15 L1440,30"
+          fill="none" stroke="#C8960C" stroke-width="0.5" opacity="0.2"/>
+      </svg>
+    </div>
+    <div class="container text-center">
+      <div class="footer-brand">Jagabaya</div>
+      <div class="footer-ornament">
+        <svg viewBox="0 0 120 16" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="8" x2="40" y2="8" stroke="#C8960C" stroke-width="0.5" opacity="0.4"/>
+          <circle cx="50" cy="8" r="2" fill="#C8960C" opacity="0.5"/>
+          <circle cx="60" cy="8" r="4" fill="none" stroke="#C8960C" stroke-width="0.8" opacity="0.6"/>
+          <circle cx="70" cy="8" r="2" fill="#C8960C" opacity="0.5"/>
+          <line x1="80" y1="8" x2="120" y2="8" stroke="#C8960C" stroke-width="0.5" opacity="0.4"/>
+        </svg>
+      </div>
+      <p class="footer-text">© 2026 SMP N 2 Yogyakarta</p>
+      <p class="footer-text">📧 tanamataruwara@gmail.com</p>
+    </div>
+  </footer>
+
+<!-- ══════════════════════════════════════
+       MODAL CERITA
+  ══════════════════════════════════════ -->
+
+  <div class="modal fade modal-cerita" id="modalCerita" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <!-- Batik corner decorations -->
+        <div class="modal-corner tl"></div>
+        <div class="modal-corner tr"></div>
+        <div class="modal-corner bl"></div>
+        <div class="modal-corner br"></div>
  
+        <div class="modal-header-cerita" id="modalHeader">
+          <div class="modal-header-batik"></div>
+          <p class="modal-kategori" id="modalKategori"></p>
+          <h2 class="modal-judul" id="modalJudul"></h2>
+          <button class="modal-close" data-bs-dismiss="modal" aria-label="Tutup">✕</button>
+        </div>
+        <div id="modalIlus"></div>
+        <div class="modal-body-cerita">
+          <div class="teks-cerita" id="modalIsi"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- ══════════════════════════════════════
        SCROLL TO TOP
   ══════════════════════════════════════ -->
   <button class="scroll-top" id="scrollTop" aria-label="Bali ndhuwur">↑</button>
 
+  <!-- ══════════════════════════════════════
+       QUIZ OVERLAY (fullscreen)
+  ══════════════════════════════════════ -->
+  <div id="quizOverlay" class="quiz-overlay" aria-hidden="true">
+
+    <!-- Header -->
+    <div class="quiz-header">
+      <button class="quiz-close-btn" id="quizCloseBtn" aria-label="Metu saka kuis">✕</button>
+      <div class="quiz-progress-wrap">
+        <div class="quiz-progress-fill" id="quizProgressFill"></div>
+      </div>
+      <div class="quiz-hearts" id="quizHearts"></div>
+    </div>
+
+    <!-- Level Info Strip -->
+    <div class="quiz-level-strip" id="quizLevelStrip"></div>
+
+    <!-- Main Arena -->
+    <div class="quiz-arena" id="quizArena">
+      <div class="quiz-question-wrap" id="quizQuestionWrap">
+        <p class="quiz-q-label" id="quizQLabel">Pilih jawaban sing bener!</p>
+        <h3 class="quiz-question-text" id="quizQuestionText"></h3>
+      </div>
+      <div class="quiz-options" id="quizOptions"></div>
+    </div>
+
+    <!-- Feedback Bar (slides up) -->
+    <div class="quiz-feedback-bar" id="quizFeedbackBar">
+      <div class="quiz-feedback-left" id="quizFeedbackContent"></div>
+      <button class="quiz-next-btn" id="quizNextBtn">Lanjut →</button>
+    </div>
+
+    <!-- Result / Level Complete Screen -->
+    <div class="quiz-result-screen" id="quizResultScreen">
+      <div class="quiz-result-mandala" id="quizResultMandala">
+        <div class="qr-ring r1"></div>
+        <div class="qr-ring r2"></div>
+        <div class="qr-ring r3"></div>
+        <div class="qr-emoji" id="qrEmoji"></div>
+      </div>
+      <h2 class="quiz-result-title" id="quizResultTitle"></h2>
+      <p class="quiz-result-sub" id="quizResultSub"></p>
+      <div class="quiz-result-stats" id="quizResultStats"></div>
+      <div class="quiz-result-actions" id="quizResultActions"></div>
+    </div>
+
+    <!-- Particle Container -->
+    <div class="quiz-particle-container" id="quizParticles"></div>
+  </div>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
