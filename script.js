@@ -596,7 +596,7 @@ renderKamus();
 let QS = {
   level : 1, qIdx: 0, hearts: 3, xp : 0,
   streak : 0, bestStreak: 0, answered: false,
-  totalXp: 0, unlockedLevel: 1,
+  totalXP: 0, unlockedLevel: 1,
 };
 function saveQProgress() {
   localStorage.setItem('jagabayaQuiz', JSON.stringify({
