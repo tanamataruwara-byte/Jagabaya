@@ -1037,3 +1037,288 @@ document.addEventListener('keydown', e => {
 ══════════════════════════════════════════════════════ */
 loadQProgress();
 renderLevelCards();
+
+/* ══════════════════════════════════════════════════════
+   AKSARA JAWA 
+══════════════════════════════════════════════════════ */
+(function initAksara() {
+
+  const AKSARA = [
+    // baris 0: Ha Na Ca Ra Ka
+    { glyph:'ꦲ', latin:'Ha', bunyi:'Vokal /a/ — konsonan glotal, aksara pembuka',
+      makna:'Simbol nafas kehidupan, awal dari segala sesuatu',
+      contoh:[{ word:'hanacaraka', aksara:'ꦲꦤꦕꦫꦏ' }] },
+    { glyph:'ꦤ', latin:'Na', bunyi:'Konsonan nasal /n/ — bergema di rongga hidung',
+      makna:'Simbol keberadaan dan eksistensi',
+      contoh:[{ word:'naga', aksara:'ꦤꦒ' }] },
+    { glyph:'ꦕ', latin:'Ca', bunyi:'Konsonan afrikat /tʃ/ — seperti "ch" dalam Bahasa Inggris',
+      makna:'Simbol perubahan dan transformasi',
+      contoh:[{ word:'candra', aksara:'ꦕꦤ꧀ꦢꦫ' }] },
+    { glyph:'ꦫ', latin:'Ra', bunyi:'Konsonan getar /r/ — bergulir di ujung lidah',
+      makna:'Simbol semangat dan pergerakan',
+      contoh:[{ word:'ratu', aksara:'ꦫꦠꦸ' }] },
+    { glyph:'ꦏ', latin:'Ka', bunyi:'Konsonan velar /k/ — keras di belakang mulut',
+      makna:'Simbol kekuatan dan keteguhan',
+      contoh:[{ word:'kawula', aksara:'ꦏꦮꦸꦭ' }] },
+    // baris 1: Da Ta Sa Wa La
+    { glyph:'ꦢ', latin:'Da', bunyi:'Konsonan dental /d/ — lidah menyentuh gigi atas',
+      makna:'Simbol keberanian dan ketegasan',
+      contoh:[{ word:'dewa', aksara:'ꦢꦺꦮ' }] },
+    { glyph:'ꦠ', latin:'Ta', bunyi:'Konsonan dental /t/ — lidah menyentuh langit-langit',
+      makna:'Simbol kebenaran dan kejujuran',
+      contoh:[{ word:'tapa', aksara:'ꦠꦥ' }] },
+    { glyph:'ꦱ', latin:'Sa', bunyi:'Konsonan sibilant /s/ — seperti desis angin',
+      makna:'Simbol kesucian dan kebersihan jiwa',
+      contoh:[{ word:'surya', aksara:'ꦱꦸꦂꦪ' }] },
+    { glyph:'ꦮ', latin:'Wa', bunyi:'Semi-vokal /w/ — antara vokal dan konsonan',
+      makna:'Simbol air dan kelenturan',
+      contoh:[{ word:'wayang', aksara:'ꦮꦪꦁ' }] },
+    { glyph:'ꦭ', latin:'La', bunyi:'Konsonan lateral /l/ — udara mengalir di sisi lidah',
+      makna:'Simbol cahaya dan penerangan',
+      contoh:[{ word:'langit', aksara:'ꦭꦔꦶꦠ꧀' }] },
+    // baris 2: Pa Dha Ja Ya Nya
+    { glyph:'ꦥ', latin:'Pa', bunyi:'Konsonan bilabial /p/ — kedua bibir menutup',
+      makna:'Simbol perlindungan dan keamanan',
+      contoh:[{ word:'pangeran', aksara:'ꦥꦔꦼꦫꦤ꧀' }] },
+    { glyph:'ꦝ', latin:'Dha', bunyi:'Konsonan retrofleks /ɖ/ — khas Bahasa Jawa',
+      makna:'Simbol kedalaman dan kerohanian',
+      contoh:[{ word:'dhawuh', aksara:'ꦝꦮꦸꦃ' }] },
+    { glyph:'ꦗ', latin:'Ja', bunyi:'Konsonan afrikat /dʒ/ — seperti "j" Bahasa Indonesia',
+      makna:'Simbol kejayaan dan kemenangan',
+      contoh:[{ word:'jaya', aksara:'ꦗꦪ' }] },
+    { glyph:'ꦪ', latin:'Ya', bunyi:'Semi-vokal /j/ — seperti "y" dalam Bahasa Jawa',
+      makna:'Simbol keberuntungan dan harapan',
+      contoh:[{ word:'yasa', aksara:'ꦪꦱ' }] },
+    { glyph:'ꦚ', latin:'Nya', bunyi:'Konsonan nasal palatal /ɲ/ — seperti "ny" dalam "nyata"',
+      makna:'Simbol pengetahuan batin dan intuisi',
+      contoh:[{ word:'nyawa', aksara:'ꦚꦮ' }] },
+    // baris 3: Ma Ga Ba Tha Nga
+    { glyph:'ꦩ', latin:'Ma', bunyi:'Konsonan nasal bilabial /m/ — bibir menutup, hidung bergetar',
+      makna:'Simbol ibu, kasih sayang, dan kesuburan',
+      contoh:[{ word:'manungsa', aksara:'ꦩꦤꦸꦁꦱ' }] },
+    { glyph:'ꦒ', latin:'Ga', bunyi:'Konsonan velar /ɡ/ — bergema di belakang mulut',
+      makna:'Simbol pertumbuhan dan kemajuan',
+      contoh:[{ word:'gunung', aksara:'ꦒꦸꦤꦸꦁ' }] },
+    { glyph:'ꦧ', latin:'Ba', bunyi:'Konsonan bilabial /b/ — kedua bibir bergetar',
+      makna:'Simbol bumi dan landasan yang kokoh',
+      contoh:[{ word:'bumi', aksara:'ꦧꦸꦩꦶ' }] },
+    { glyph:'ꦛ', latin:'Tha', bunyi:'Konsonan retrofleks /ʈ/ — lidah melengkung ke belakang',
+      makna:'Simbol ketahanan dan keteguhan hati',
+      contoh:[{ word:'thukul', aksara:'ꦛꦸꦏꦸꦭ꧀' }] },
+    { glyph:'ꦔ', latin:'Nga', bunyi:'Konsonan nasal velar /ŋ/ — seperti "ng" dalam "nganga"',
+      makna:'Simbol penyatuan dan keharmonisan semesta',
+      contoh:[{ word:'ngayu', aksara:'ꦔꦪꦸ' }] },
+  ];
+
+  const BARIS = [
+    { label:'Ha Na Ca Ra Ka', aksara: AKSARA.slice(0,5),
+      legenda:'"Hana caraka" — ana utusan. Nyritakake nalika Ajisaka ngutus rong abdiné yaiku Dora lan Sembada.' },
+    { label:'Da Ta Sa Wa La', aksara: AKSARA.slice(5,10),
+      legenda:'"Datan sawala" — padha ora gelem nyingkiri. Kekalih abdi padha kukuh ngugemi printah sing beda.' },
+    { label:'Pa Dha Ja Ya Nya', aksara: AKSARA.slice(10,15),
+      legenda:'"Padha jayanya" — padha-padha kasektèné. Dora lan Sembada padha rosa lan pitrayanipun.' },
+    { label:'Ma Ga Ba Tha Nga', aksara: AKSARA.slice(15,20),
+      legenda:'"Maga bathanga" — kekalih padha dadi bathang. Loro-lorone mati setia ngugemi tugas nganti ajal.' },
+  ];
+
+  /* ── SANDHANGAN (tanda vokal) ── */
+  const SANDH_MAP = {
+    'i':'ꦶ', 'e':'ꦼ', 'u':'ꦸ', 'é':'ꦺ', 'o':'ꦺꦴ',
+  };
+
+  /* Peta konsonan latin → aksara carakan */
+  const KONSONAN_BASE = {
+  'ng':'ꦔ','ny':'ꦚ','dh':'ꦝ','th':'ꦛ',
+  'h':'ꦲ','n':'ꦤ','c':'ꦕ','r':'ꦫ','k':'ꦏ',
+  'd':'ꦢ','t':'ꦠ','s':'ꦱ','w':'ꦮ','l':'ꦭ',
+  'p':'ꦥ','j':'ꦗ','y':'ꦪ','m':'ꦩ','g':'ꦒ','b':'ꦧ',
+};
+
+const PANGKON = '꧀';
+
+  let activeBarisIdx = 0;
+  let activeAksaraIdx = null;
+
+  const grid        = document.getElementById('aksaraGrid');
+  const legendaTeks = document.getElementById('aksaraLegendaTeks');
+  const detailPanel = document.getElementById('aksaraDetailPanel');
+  const detailGlyph = document.getElementById('aksaraDetailGlyph');
+  const detailNama  = document.getElementById('aksaraDetailNama');
+  const detailLatin = document.getElementById('aksaraDetailLatin');
+  const detailBunyi = document.getElementById('aksaraDetailBunyi');
+  const detailContoh= document.getElementById('aksaraDetailContoh');
+  const closeBtn    = document.getElementById('aksaraDetailClose');
+  const tulisInput  = document.getElementById('aksaraTulisInput');
+  const tulisOutput = document.getElementById('aksaraTulisOutput');
+  const resetBtn    = document.getElementById('aksaraResetBtn');
+
+  function renderBaris(barisIdx) {
+    activeBarisIdx  = barisIdx;
+    activeAksaraIdx = null;
+    const baris     = BARIS[barisIdx];
+
+    legendaTeks.style.opacity = '0';
+    setTimeout(() => { legendaTeks.textContent = baris.legenda; legendaTeks.style.opacity = '1'; }, 200);
+
+    detailPanel.classList.add('d-none');
+
+    grid.innerHTML = baris.aksara.map((a, i) => `
+      <div class="aksara-card" data-idx="${i}" style="transition-delay:${i * 0.07}s">
+        <span class="aksara-glyph">${a.glyph}</span>
+        <span class="aksara-latin">${a.latin}</span>
+        <span class="aksara-bunyi-tag">/${a.latin.toLowerCase()}/</span>
+      </div>
+    `).join('');
+
+    requestAnimationFrame(() => {
+      grid.querySelectorAll('.aksara-card').forEach((card, i) => {
+        setTimeout(() => card.classList.add('visible'), 60 + i * 80);
+        card.addEventListener('click', () => klikAksara(i, card));
+      });
+    });
+
+    document.querySelectorAll('.aksara-baris-btn').forEach((b, i) => {
+      b.classList.toggle('aktif', i === barisIdx);
+    });
+  }
+
+  function klikAksara(idx, cardEl) {
+    const a = BARIS[activeBarisIdx].aksara[idx];
+    if (activeAksaraIdx === idx) {
+      activeAksaraIdx = null;
+      cardEl.classList.remove('aktif-card');
+      detailPanel.classList.add('d-none');
+      return;
+    }
+    grid.querySelectorAll('.aksara-card').forEach(c => c.classList.remove('aktif-card'));
+    cardEl.classList.add('aktif-card');
+    activeAksaraIdx = idx;
+
+    detailGlyph.textContent  = a.glyph;
+    detailNama.textContent   = a.latin;
+    detailLatin.textContent  = `Konsonan Aksara Jawa — ${a.latin}`;
+    detailBunyi.textContent  = a.bunyi + '. ' + a.makna + '.';
+    detailContoh.innerHTML   = a.contoh.map(c =>
+      `<span class="aksara-contoh-tag"><span class="aksara-contoh-aksara">${c.aksara}</span>${c.word}</span>`
+    ).join('');
+
+    detailPanel.classList.remove('d-none');
+    setTimeout(() => detailPanel.scrollIntoView({ behavior:'smooth', block:'nearest' }), 50);
+  }
+
+  closeBtn.addEventListener('click', () => {
+    detailPanel.classList.add('d-none');
+    activeAksaraIdx = null;
+    grid.querySelectorAll('.aksara-card').forEach(c => c.classList.remove('aktif-card'));
+  });
+
+  document.getElementById('aksaraBarisnav').addEventListener('click', e => {
+    const btn = e.target.closest('.aksara-baris-btn');
+    if (btn) renderBaris(Number(btn.dataset.baris));
+  });
+
+  const URUTAN_KUNCI = Object.keys(KONSONAN_BASE).sort((a, b) => b.length - a.length);
+const VOKAL_SET = new Set(['a', 'i', 'e', 'é', 'è', 'u', 'o']);
+
+function latinToAksara(teks) {
+  const lower = teks
+    .toLowerCase()
+    .replace(/ee/g, 'é');
+
+  if (!lower.trim()) return [];
+
+  const hasil = [];
+  let i = 0;
+
+  while (i < lower.length) {
+    let cocok = false;
+
+    for (const key of URUTAN_KUNCI) {
+      if (lower.startsWith(key, i)) {
+        const baseGlyph = KONSONAN_BASE[key];
+        const posSetelah = i + key.length;
+        const charBerikut = lower[posSetelah] || '';
+
+        let sandh = PANGKON;
+        let latinDisplay = key;
+        let skip = 0;
+
+        if (VOKAL_SET.has(charBerikut)) {
+          if (charBerikut === 'a') {
+            sandh = '';
+          } else if (charBerikut === 'è') {
+            sandh = SANDH_MAP['é'];
+          } else {
+            sandh = SANDH_MAP[charBerikut];
+          }
+
+          latinDisplay = key + charBerikut;
+          skip = 1;
+        }
+
+        hasil.push({
+          glyph: baseGlyph,
+          sandh: sandh,
+          latinDisplay: latinDisplay,
+          matched: true,
+          jenis: 'carakan',
+        });
+
+        i = posSetelah + skip;
+        cocok = true;
+        break;
+      }
+    }
+
+    if (!cocok) {
+      const ch = lower[i];
+
+      if (ch === 'a') {
+        hasil.push({ glyph:'ꦲ', sandh:'', latinDisplay:'a', matched:true, jenis:'carakan' });
+      } else if (VOKAL_SET.has(ch)) {
+        hasil.push({
+          glyph:'ꦲ',
+          sandh: ch === 'è' ? SANDH_MAP['é'] : SANDH_MAP[ch],
+          latinDisplay: ch,
+          matched:true,
+          jenis:'carakan'
+        });
+      } else if (ch === ' ') {
+        hasil.push({ glyph:' ', sandh:'', latinDisplay:' ', matched:false, jenis:'spasi' });
+      } else {
+        hasil.push({ glyph:ch, sandh:'', latinDisplay:ch, matched:false, jenis:'unknown' });
+      }
+
+      i++;
+    }
+  }
+
+  return hasil;
+}
+
+  function renderTulisOutput(tokens) {
+    if (!tokens.length) {
+      tulisOutput.innerHTML = '<span class="aksara-tulis-placeholder">Aksara bakal muncul kene…</span>';
+      return;
+    }
+    tulisOutput.innerHTML = tokens.map((t, idx) => {
+      if (t.jenis === 'spasi') return `<span style="display:inline-block;width:1rem"></span>`;
+      return `
+        <span class="aksara-tulis-char ${t.matched ? '' : 'unknown'}"
+              style="animation-delay:${idx * 0.055}s">
+          <span class="tc-glyph">${t.matched ? (t.glyph + t.sandh) : t.glyph}</span>
+          <span class="tc-latin">${t.latinDisplay}</span>
+        </span>`;
+    }).join('');
+  }
+
+  tulisInput.addEventListener('input', () => renderTulisOutput(latinToAksara(tulisInput.value)));
+  resetBtn.addEventListener('click', () => {
+    tulisInput.value = '';
+    tulisOutput.innerHTML = '<span class="aksara-tulis-placeholder">Aksara bakal muncul kene…</span>';
+    tulisInput.focus();
+  });
+
+  renderBaris(0);
+
+})();

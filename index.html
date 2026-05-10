@@ -43,6 +43,7 @@
       <div class="nav-links" id="navMenu">
         <a href="#pambuka" class="nav-link-custom">Pambuka</a>
         <a href="#crita" class="nav-link-custom">Crita</a>
+        <a href="#aksara" class="nav-link-custom">Aksara</a>
         <a href="#kuis" class="nav-link-custom">Kuis</a>
         <a href="#kamus" class="nav-link-custom">Kamus</a>
       </div>
@@ -165,6 +166,128 @@
 
   </section>
   <!-- section cerita END══════════════════════════════════════ -->
+
+<!-- ══════════════════════════════════════
+     SECTION: AKSARA JAWA
+══════════════════════════════════════ -->
+<section id="aksara" class="section-wrapper aksara-section-wrap">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label scroll-reveal">✦ Tulisan Tradisional ✦</p>
+      <h2 class="section-title scroll-reveal">Aksara Jawa</h2>
+      <p class="aksara-subtitle scroll-reveal">Dentawyanjana — 20 aksara dhasar basa Jawa</p>
+      <div class="section-ornament scroll-reveal">
+        <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
+          <line x1="0" y1="10" x2="70" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5"/>
+          <circle cx="80" cy="10" r="2" fill="#C8960C" opacity="0.7"/>
+          <circle cx="90" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7"/>
+          <circle cx="100" cy="10" r="6" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.8"/>
+          <circle cx="100" cy="10" r="2" fill="#C8960C"/>
+          <circle cx="110" cy="10" r="4" fill="none" stroke="#C8960C" stroke-width="1" opacity="0.7"/>
+          <circle cx="120" cy="10" r="2" fill="#C8960C" opacity="0.7"/>
+          <line x1="130" y1="10" x2="200" y2="10" stroke="#C8960C" stroke-width="0.5" opacity="0.5"/>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Tab baris aksara -->
+    <div class="aksara-baris-nav scroll-reveal" id="aksaraBarisnav">
+      <button class="aksara-baris-btn aktif" data-baris="0">Ha Na Ca Ra Ka</button>
+      <button class="aksara-baris-btn" data-baris="1">Da Ta Sa Wa La</button>
+      <button class="aksara-baris-btn" data-baris="2">Pa Dha Ja Ya Nya</button>
+      <button class="aksara-baris-btn" data-baris="3">Ma Ga Ba Tha Nga</button>
+    </div>
+
+    <!-- Kisah Legenda -->
+    <div class="aksara-legenda scroll-reveal" id="aksaraLegenda">
+      <div class="aksara-legenda-inner">
+        <span class="aksara-legenda-label">✦ Sejarah ✦</span>
+        <p class="aksara-legenda-teks" id="aksaraLegendaTeks"></p>
+      </div>
+    </div>
+
+    <!-- Grid kartu aksara -->
+    <div class="aksara-grid" id="aksaraGrid"></div>
+
+    <!-- Panel detail (muncul saat diklik) -->
+    <div class="aksara-detail-panel d-none" id="aksaraDetailPanel">
+      <button class="aksara-detail-close" id="aksaraDetailClose">✕</button>
+      <div class="aksara-detail-glyph" id="aksaraDetailGlyph"></div>
+      <div class="aksara-detail-info">
+        <h3 class="aksara-detail-nama" id="aksaraDetailNama"></h3>
+        <p class="aksara-detail-latin" id="aksaraDetailLatin"></p>
+        <p class="aksara-detail-bunyi" id="aksaraDetailBunyi"></p>
+        <div class="aksara-detail-contoh" id="aksaraDetailContoh"></div>
+      </div>
+    </div>
+
+<!-- Mode tulis — ketik latin → tampil aksara -->
+<div class="aksara-tulis-wrap scroll-reveal">
+  <p class="aksara-tulis-label">✦ Coba Nulis Aksara ✦</p>
+  <p class="aksara-tulis-hint">Ketik Latin — konsonan + vokal otomatis digabung dadi Aksara Jawa lan Sandhangané</p>
+
+  <!-- Referensi sandhangan -->
+  <div class="sandh-ref scroll-reveal">
+    <p class="sandh-ref-title">✦ Sandhangan Vokal ✦</p>
+    <div class="sandh-ref-grid">
+      <div class="sandh-item">
+        <span class="sandh-glyph">ꦲꦶ</span>
+        <span class="sandh-row">
+          <span class="sandh-nama">Wulu</span>
+          <span class="sandh-ketik">ketik: <code>i</code></span>
+        </span>
+        <span class="sandh-bunyi">bunyi /i/</span>
+      </div>
+      <div class="sandh-item">
+        <span class="sandh-glyph">ꦲꦼ</span>
+        <span class="sandh-row">
+          <span class="sandh-nama">Pepet</span>
+          <span class="sandh-ketik">ketik: <code>e</code></span>
+        </span>
+        <span class="sandh-bunyi">bunyi /ê/</span>
+      </div>
+      <div class="sandh-item">
+        <span class="sandh-glyph">ꦲꦸ</span>
+        <span class="sandh-row">
+          <span class="sandh-nama">Suku</span>
+          <span class="sandh-ketik">ketik: <code>u</code></span>
+        </span>
+        <span class="sandh-bunyi">bunyi /u/</span>
+      </div>
+      <div class="sandh-item">
+        <span class="sandh-glyph">ꦲꦺ</span>
+        <span class="sandh-row">
+          <span class="sandh-nama">Taling</span>
+          <span class="sandh-ketik">ketik: <code>ee</code></span>
+        </span>
+        <span class="sandh-bunyi">bunyi /é/</span>
+      </div>
+      <div class="sandh-item">
+        <span class="sandh-glyph">ꦲꦺꦴ</span>
+        <span class="sandh-row">
+          <span class="sandh-nama">Taling Tarung</span>
+          <span class="sandh-ketik">ketik: <code>o</code></span>
+        </span>
+        <span class="sandh-bunyi">bunyi /o/</span>
+      </div>
+    </div>
+    <p class="sandh-ref-note">
+      Vokal <code>a</code> = vokal bawaan aksara, ora perlu sandhangan &nbsp;·&nbsp;
+      <code>ee</code> = é taling &nbsp;·&nbsp; <code>e</code> = ê pepet
+    </p>
+  </div>
+
+  <div class="aksara-tulis-box">
+    <input type="text" class="aksara-tulis-input" id="aksaraTulisInput"
+      placeholder="cth: nasi · roti · gunung · bumi · wayang" maxlength="60" autocomplete="off" spellcheck="false">
+    <div class="aksara-tulis-output" id="aksaraTulisOutput">
+      <span class="aksara-tulis-placeholder">Aksara bakal muncul kene…</span>
+    </div>
+  </div>
+  <button class="btn-jawa aksara-reset-btn" id="aksaraResetBtn">Resete ↺</button>
+</div>
+  <div class="batik-border bottom"></div>
+</section>
 
    <!-- ══════════════════════════════════════
        SECTION: KUIS
