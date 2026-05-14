@@ -40,7 +40,6 @@ const KAMUS = {
 const LABEL_KAT = {
   petualangan: "⚔ Petualangan",
   "asal-usul": "🏛 Asal-Usul",
-  romantis:    "💛 Romantis",
   mitologi:    "✨ Mitologi",
 };
  
@@ -53,69 +52,43 @@ const CERITA = [
     warna: "#1E3D0A",
     warnaTerang: "#3A6A18",
     ringkasan: "Bocah wadon sing lair saka wiji timun kudu ngadhepi raseksa sing njaluk dheweke kanthi cara sing ora disangka-sangka.",
-    isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana <span class="kata-sulit">randha<span class="tooltip-kamus">janda; wanita sing wis mati bojone</span></span> sing urip ijen lan kepengin banget nduwé anak.</p>
-<p>Sawijining dina, dheweke ketemu <span class="kata-sulit">raseksa<span class="tooltip-kamus">raksasa; makhluk besar jahat dalam dongeng</span></span> sing maringi <span class="kata-sulit">wiji<span class="tooltip-kamus">biji; benih tanaman</span></span> timun. "Tandurna iki, lan mengko bakal metu bocah saka njero timun," ujare raseksa. "Nanging nalika bocah kuwi wis gedhé, dheweke dadi milikku."</p>
-<p>Sawisé ditandur, bener wae — saka njero timun metu bocah wadon sing ayu banget, dijenengi Timun Mas.</p>
-<p>Nalika Timun Mas wis diwasa, raseksa teka arep njupuk dheweke. Timun Mas banjur mlayu nggawa buntelan isi papat barang sing diwènèhké déning <span class="kata-sulit">pertapa<span class="tooltip-kamus">orang yang bertapa/bersemedi di hutan</span></span> sakti: wiji timun, jarum, uyah, lan trasi.</p>
-<p>Nalika raseksa nyedhaki, Timun Mas mbuwang wiji timun — dadi kebon reyot sing ngalangi raseksa. Banjur jarum — dadi alas pring sing nusuk-nusuk. Banjur uyah — dadi segara jembar. Lan pungkasané trasi — dadi <span class="kata-sulit">lendhut<span class="tooltip-kamus">lumpur; tanah becek</span></span> panas sing ngisep raseksa nganti mati.</p>
-<p><span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span>, Timun Mas slamet lan bisa urip bebarengan karo ibune kanthi seneng ing desa sing tentrem.</p>`,
+    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> ono <span class="kata-sulit">randha<span class="tooltip-kamus">janda; wanita sing wis mati bojone</span></span>, jenenge mbok Srini.
+    Mbok Srini ketemu <span class="kata-sulit">raseksa<span class="tooltip-kamus">raksasa; makhluk besar jahat dalam dongeng</span></span> buto ijo.
+    Buto ijo kondha :“Yen kowe gelem nandur <span class="kata-sulit">wiji<span class="tooltip-kamus">biji; benih tanaman</span></span> iki, bakal lair anakmu, nanging yen wis gedhe kudu tak jupuk.” Senajan wedi, mbok Srini gelem amarga kepengin banget nduwe anak.
+    Woh timun mau mateng banjur dibelah, terus metu bayi wadon ayu dijenengi Timun Mas.</p>
+<p>Nalika Timun Mas wis umur enem taun buto ijo teka arep nagih janji mbok Srini, yaiku njupuk anake.
+Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <span class="kata-sulit">dom<span class="tooltip-kamus">jarum; alat kecil runcing untuk menjahit</span></span> dadi alas pring,  uyah dadi segara, lan trasi dadi <span class="kata-sulit">lendhut<span class="tooltip-kamus">lumpur; tanah becek</span></span> panas.
+<span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span> buto ijo kalah,  Timun Mas bisa ketemu karo Mbok Srini lan urip tentrem, dene buto ijo gagal njupuk Timun Mas.</p>
+`,
   },
   {
     id: 2,
     judul: "Roro Jonggrang",
-    kategori: "asal-usul",
-    emoji: "🏯",
+    kategori: "mitologi",
+    emoji: "🛕",
     warna: "#1A1A4E",
     warnaTerang: "#3030A0",
     ringkasan: "Putri sing nolak lamaran raja dikutuk dadi arca kanggo nglengkapi sewu candhi sing meh rampung.",
-    isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana raja enom aran Bandung Bondowoso sing kasil ngalahake Kerajaan Prambanan. Dheweke banjur kepengin nglamar Roro Jonggrang, putri raja sing wis kalah.</p>
-<p>Nanging Roro Jonggrang ora seneng karo Bandung Bondowoso. Supaya bisa nolak tanpa duka, dheweke maringi syarat sing ora mungkin: Bandung Bondowoso kudu nggawe sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> sajroning <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span>.</p>
-<p>Nanging Bandung Bondowoso kasekten — dheweke njaluk tulung marang <span class="kata-sulit">makhluk alus<span class="tooltip-kamus">makhluk halus; jin, roh, atau setan</span></span> sing bisa nyambut gawe kanthi cepet banget. Candhi-candhi metu siji mbaka siji ing wengining wengi.</p>
-<p>Roro Jonggrang wedi <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> bakal rampung. Dheweke banjur nyuruh para wanita murub geni ing sisih wetan lan numbuk pari supaya suwarane kaya subuh. Makhluk alus padha ngira wis ésuk lan banjur lunga kabeh.</p>
-<p>Bandung Bondowoso nesu banget — mung kasil nggawe 999 candhi. Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>: Roro Jonggrang dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>
-<p>Nganti saiki, arca Roro Jonggrang isih ana ing Candi Prambanan — minangka pepeling crita cinta sing tragis iki.</p>`,
+    isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana satriya sekti jenenge Bandung Bondowoso sing menang perang nglawan Raja Baka.
+    Bareng mlebu kraton, dheweke weruh Roro Jonggrang sing ayu banget.
+    Bandung Bondowoso ngomong : “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem nanging wedi nolak, mula kondha :“Yen pancen tresna tenan, gawekna aku sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> wektune <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span> wae!”.</p>
+<p>Bandung Bondowoso kasekten — dheweke njaluk tulung marang <span class="kata-sulit">makhluk alus<span class="tooltip-kamus">makhluk halus; jin, roh, atau setan</span></span>,  nanging sing dadi wis 999.
+Roro Jonggrang gugup terus prentah dayange :“Ayo,  lesung-lesung kae di thuthuki sing banter, obongen damen ben padhang kaya esuk!” Bareng krungu rame-rame, jin-jin padha mlayu.
+Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>: Roro Jonggrang dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>`,
   },
   {
     id: 3,
-    judul: "Ande-Ande Lumut",
-    kategori: "romantis",
-    emoji: "💚",
+    judul: "Malin Kundang",
+    kategori: "asal-usul",
+    emoji: "⛵",
     warna: "#2C4A1E",
     warnaTerang: "#4A7A30",
-    ringkasan: "Pangeran nyamar golek calon bojo sing apik atiné, lan nemu wanita sing jujur lan sabar ing antarane akeh pilihan.",
-    isi: `<p>Ana sawijining <span class="kata-sulit">pangeran<span class="tooltip-kamus">pangeran; putra mahkota atau bangsawan muda</span></span> sing ora kepengin nikah amarga kekayaan utawa kaluwihan. Dheweke nyamar dadi <span class="kata-sulit">nom-noman<span class="tooltip-kamus">pemuda; orang yang masih muda</span></span> biasa aran Ande-Ande Lumut lan manggon ing omahé ibu angkat.</p>
-<p>Kabar banjur sumebar: Ande-Ande Lumut golek calon bojo. Akeh bocah wadon sing kepengin ketemu, yaiku Klenting Abang, Klenting Biru, Klenting Ungu, lan Klenting Kuning — bocah sing paling prasaja nanging paling becik atiné.</p>
-<p>Nalika arep nyabrang kali, ana <span class="kata-sulit">yuyu<span class="tooltip-kamus">kepiting air tawar</span></span> gedhé aran Yuyu Kangkang sing gelem nulungi — asal gelem diambung. Telung kakangé Klenting Kuning gelem tanpa mikir. Nanging Klenting Kuning ora gelem — dheweke milih ngubek nganti nemu cara nyabrang kali dhewe, sanajan angel banget.</p>
-<p>Bareng tekan omahé Ande-Ande Lumut, kakangé ditolak siji mbaka siji. Mung Klenting Kuning sing dipilih, amarga dheweke jujur, sabar, lan ora gelem ngorbanake prinsipé kanggo kepenak.</p>
-<p><span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span>, Klenting Kuning lan Ande-Ande Lumut <span class="kata-sulit">omah-omah<span class="tooltip-kamus">menikah; berumah tangga</span></span> kanthi bahagia, lan Ande-Ande Lumut ngandakake asline minangka pangeran.</p>`,
-  },
-  {
-    id: 4,
-    judul: "Jaka Tarub",
-    kategori: "mitologi",
-    emoji: "🪽",
-    warna: "#1E3A4A",
-    warnaTerang: "#2E5C72",
-    ringkasan: "Nom-noman ndhelikaké selendang bidadari nganti dheweke ora bisa bali menyang kayangan — kisah cinta sing berakhir sedih.",
-    isi: `<p>Ana <span class="kata-sulit">nom-noman<span class="tooltip-kamus">pemuda; orang yang masih muda</span></span> aran Jaka Tarub sing urip ijen ing desa cedhak <span class="kata-sulit">alas<span class="tooltip-kamus">hutan; kawasan pohon lebat</span></span>. Sawijining esuk, dheweke lunga menyang alas golek manuk. Nanging kang ditemokake malah sesuatu sing ora disangka-sangka.</p>
-<p>Ing <span class="kata-sulit">sendhang<span class="tooltip-kamus">sendang; sumber air/kolam alami di hutan</span></span> sing resik, pitu <span class="kata-sulit">bidadari<span class="tooltip-kamus">dewi kahyangan yang cantik dan bisa terbang</span></span> saka <span class="kata-sulit">kayangan<span class="tooltip-kamus">khayangan; surga; tempat tinggal dewa-dewi</span></span> lagi adus lan main banyu kanthi riang.</p>
-<p>Jaka Tarub kasengsem karo salah siji sing paling ayu. Dheweke banjur ndhelikaké <span class="kata-sulit">selendang<span class="tooltip-kamus">kain panjang dipakai di bahu sebagai perhiasan</span></span>é bidadari kuwi supaya ora bisa bali menyang kayangan.</p>
-<p>Bidadari sing kelangan selendang ora bisa mabur. Jenengé Nawang Wulan. Kanthi sedih, dheweke nampa nasibé lan urip bebarengan karo Jaka Tarub ing bumi. Pungkasané padha omah-omah lan nduwé anak wadon.</p>
-<p>Nanging sawijining dina, nalika Nawang Wulan ngresiki omah, dheweke nemokake <span class="kata-sulit">selendang<span class="tooltip-kamus">kain panjang dipakai di bahu sebagai perhiasan</span></span>é sing disimpen Jaka Tarub. Atine remuk — dheweke wis diapusi. Kanthi nangis, Nawang Wulan nganggo selendangé banjur mabur bali menyang <span class="kata-sulit">kayangan<span class="tooltip-kamus">khayangan; surga; tempat tinggal dewa-dewi</span></span>, ninggal Jaka Tarub lan putriné ing bumi.</p>`,
-  },
-  {
-    id: 5,
-    judul: "Lutung Kasarung",
-    kategori: "romantis",
-    emoji: "🐒",
-    warna: "#3D2010",
-    warnaTerang: "#6B3820",
-    ringkasan: "Putri sing diusir saka kerajaan ketemu lutung ajaib ing alas — sing sejatiné pangeran saka kayangan sing kena kutuk.",
-    isi: `<p>Ing sawijining kerajaan, ana putri ayu aran Purbasari sing disenengi kabeh wong. Nanging kakangé wadon, Purbararang, <span class="kata-sulit">iri<span class="tooltip-kamus">iri hati; dengki; cemburu</span></span> banget karo Purbasari amarga Purbasari luwih disenengi ing kerajaan.</p>
-<p>Purbararang banjur ngapusi raja bapakné — ngomong yen Purbasari kena penyakit kulit sing mbebayani. Purbasari banjur diusir menyang <span class="kata-sulit">alas<span class="tooltip-kamus">hutan; kawasan pohon lebat</span></span> sing peteng lan sepi.</p>
-<p>Ing alas, Purbasari ketemu macem-macem kewan sing dadi kanca lan nulunginé. Sing paling setia yaiku lutung aran Lutung Kasarung. Sanajan rupane kethek, Lutung Kasarung nduweni kasekten — sejatiné dheweke <span class="kata-sulit">pangeran<span class="tooltip-kamus">pangeran; putra mahkota atau bangsawan muda</span></span> saka <span class="kata-sulit">kayangan<span class="tooltip-kamus">khayangan; surga; tempat tinggal dewa-dewi</span></span> sing kena <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>.</p>
-<p>Nalika Purbararang ngadakake <span class="kata-sulit">sayembara<span class="tooltip-kamus">perlombaan/kompetisi untuk meraih sesuatu</span></span> kanggo ngresmikake karatoné, Purbasari dipanggil melu. Kanthi pitulungané Lutung Kasarung, Purbasari kasil menang ing saben tantangan.</p>
-<p><span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span>, kutuk Lutung Kasarung ilang — dheweke bali wujud pangeran kang bagus. Purbasari lan pangeran mau urip seneng bebarengan, dene Purbararang nampa piwales saka piala-pialaé.</p>`,
+    ringkasan: "Anak sing ninggalake ibune kanggo golek rejeki. Sawise sugih lan rabi, Malin bali nanging ora ngakoni ibune sing tuwa lan mlarat. Ibune ndonga Malin dikutuk dadi watu.",
+    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> nang Sumatera Barat ono bocah jenenge Malin Kundang urip karo ibune sing <span class="kata-sulit">mlarat<span class="tooltip-kamus">miskin; tidak punya banyak harta</span></span>,  ibune Malin Kundang jenenge Mande Rubayah.
+    Malin ngomong : “Mak, aku arep <span class="kata-sulit">ngumbara<span class="tooltip-kamus">merantau; pergi jauh mencari kehidupan</span></span> ben dadi wong sugih.”</p>
+<p>Bareng wis sukses dadi <span class="kata-sulit">saudagar<span class="tooltip-kamus">pedagang kaya; orang yang berdagang besar</span></span>, Malin mulih numpak kapal gedhe karo bojone.
+Ibune langsung nyedhak karo nangis lan kondha :“Malin, iki ibu, Le !”Nanging Malin isin terus <span class="kata-sulit">nyentak<span class="tooltip-kamus">membentak; berbicara dengan nada keras</span></span> : “Aku dudu anakmu!”.
+Ibune sedih lan ndongake :“Gusti, yen pancen iki anakku, nyuwun tulung anakku dikutuk ben dadio watu.” Ora suwe ombak gedhe teka lan Malin Kundang <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span>.</p>`,
   },
 ];
  
@@ -126,8 +99,6 @@ const LEVEL_DATA = [
   { id:1, nama:'Mudha',     sub:'Pemula',   emoji:'🌱', xpPer:10 },
   { id:2, nama:'Trampil',   sub:'Terampil', emoji:'⚡', xpPer:12 },
   { id:3, nama:'Wasis',     sub:'Mahir',    emoji:'🏛', xpPer:14 },
-  { id:4, nama:'Pinter',    sub:'Pintar',   emoji:'🔮', xpPer:16 },
-  { id:5, nama:'Wicaksana', sub:'Bijak',    emoji:'✨', xpPer:20 },
 ];
 
 /* ══════════════════════════════════════════════════════
@@ -135,54 +106,34 @@ const LEVEL_DATA = [
 ══════════════════════════════════════════════════════ */
 const SOAL_KUIS = {
   1: [
-    { soal:'Apa artine tembung "raseksa"?', p:['Raksasa; makhluk besar jahat','Bunga cantik wangi','Sumber mata air','Putra raja muda'], b:0 },
+    { soal:'Apa artine tembung "wiji"?', p:['Benih tanaman','Bunga cantik wangi','Sumber mata air','Putra raja muda'], b:0 },
     { soal:'Apa artine tembung "bidadari"?', p:['Penyihir jahat','Dewi kahyangan sing bisa mabur','Raksasa betina','Putri raja'], b:1 },
-    { soal:'Apa artine tembung "kayangan"?', p:['Hutan lebat','Sumber air alami','Surga; panggonan dewa-dewi','Kerajaan besar'], b:2 },
-    { soal:'Apa artine tembung "alas"?', p:['Pantai indah','Pegunungan tinggi','Hutan; kawasan wit-witan','Sawah subur'], b:2 },
-    { soal:'Apa artine tembung "pangeran"?', p:['Pedagang sugih','Putra mahkota utawa bangsawan','Prajurit perang','Petani desa'], b:1 },
+    { soal:'Apa artine tembung "lendhut"?', p:['Hutan lebat','Sumber air alami','Tanah becek','Kerajaan besar'], b:2 },
+    { soal:'Apa artine tembung "candhi"?', p:['Pantai indah','Pegunungan tinggi','Bangunan suci','Sawah subur'], b:2 },
+    { soal:'Apa artine tembung "makhluk alus"?', p:['Pedagang sugih','Jin, roh, atau setan','Prajurit perang','Petani desa'], b:1 },
     { soal:'Apa artine tembung "kutuk"?', p:['Doa keselamatan','Nyanyian merdu','Kutukan; hukuman gaib','Hadiah istimewa'], b:2 },
-    { soal:'Apa artine tembung "selendang"?', p:['Senjata perang','Kain panjang dipakai ing bahu','Mahkota emas','Cincin kerajaan'], b:1 },
+    { soal:'Apa artine tembung "reca"?', p:['Senjata perang','Patung dari batu atau logam','Mahkota emas','Cincin kerajaan'], b:1 },
     { soal:'Apa artine tembung "randha"?', p:['Gadis muda','Janda; wanita sing wis mati bojone','Nenek tua','Ratu cantik'], b:1 },
   ],
   2: [
     { soal:'Sapa tokoh utama ing crita "Timun Mas"?', p:['Nawang Wulan','Roro Jonggrang','Timun Mas','Purbasari'], b:2 },
-    { soal:'Sapa sing ndhelikaké selendang bidadari?', p:['Bandung Bondowoso','Jaka Tarub','Lutung Kasarung','Ande-Ande Lumut'], b:1 },
-    { soal:'Apa jenenge bidadari ing crita Jaka Tarub?', p:['Purbasari','Klenting Kuning','Nawang Wulan','Roro Jonggrang'], b:2 },
+    { soal:'Sapa satriya sing ditolak Roro Jonggrang?', p:['Bandung Bondowoso','Jaka Tarub','Lutung Kasarung','Ande-Ande Lumut'], b:0 },
+    { soal:'Sapa jenenge ibune Malin Kundang?', p:['Purbasari','Mande Rubayah','Nawang Wulan','Roro Jonggrang'], b:2 },
     { soal:'Pira cacahe candhi sing kudu digawe Bandung Bondowoso?', p:['500','999','1000','777'], b:2 },
-    { soal:'Sapa sing ngusir Purbasari menyang alas?', p:['Ramane','Purbararang (kakangé wadon)','Lutung Kasarung','Ratu kerajaan'], b:1 },
-    { soal:'Ing "Ande-Ande Lumut", sapa sing dipilih dadi bojo?', p:['Klenting Abang','Klenting Biru','Klenting Ungu','Klenting Kuning'], b:3 },
-    { soal:'Apa sing digunakake Timun Mas kanggo ngalangi raseksa kaping pisanan?', p:['Jarum','Uyah','Wiji timun','Trasi'], b:2 },
-    { soal:'Apa sing dilakoni Nawang Wulan bareng nemokake selendangé?', p:['Menehi maaf','Mabur bali menyang kayangan','Ngajak Jaka Tarub melu','Ngurep selendang'], b:1 },
+    { soal:'Sapa raseksa sing arep jupuk Timun Mas?', p:['Purbararang (kakangé wadon)','Buto ijo','Lutung Kasarung','Ratu kerajaan'], b:1 },
+    { soal:'Apa sebabé Malin Kundang dikutuk dadi watu?', p:['Amarga kalah perang','Amarga ngapusi kancane','Amarga durhaka marang ibune','Amarga nyolong bandha kerajaan'], b:3 },
+    { soal:'Apa sing digunakake Timun Mas kanggo ngalangi raseksa kaping pisanan?', p:['Uyah','Dom','Wiji timun','Trasi'], b:1 },
+    { soal:'Apa sing dilakoni Bandung Bondowoso sawise diapusi?', p:['Menehi maaf','Ngucapke kutukan Roro Jonggrang','Ngajak Jaka Tarub melu','Ngurep selendang'], b:1 },
   ],
   3: [
-    { soal:'Tembung "bidadari" asale saka basa apa?', p:['Jawa','Melayu','Sanskerta','Arab'], b:2 },
-    { soal:'Tembung "sayembara" asale saka basa apa?', p:['Jawa','Sanskerta','Melayu','Inggris'], b:1 },
-    { soal:'Ing crita Lutung Kasarung, Lutung sejatine apa?', p:['Hantu alas','Pangeran saka kayangan kena kutuk','Raja tua nyamar','Penjaga hutan'], b:1 },
-    { soal:'Apa artine "sendhang"?', p:['Kolam buatan','Lautan luas','Sumber air/kolam alami ing alas','Kali gedhe'], b:2 },
-    { soal:'Ing crita Roro Jonggrang, sapa sing mbantu nggawe candhi?', p:['Para prajurit','Makhluk alus (jin)','Para petani','Tukang batu'], b:1 },
-    { soal:'Apa artine tembung "pungkasané"?', p:['Ing wiwitane','Ing tengahing crita','Ing pungkasane; akhirnya','Sadurunge'], b:2 },
-    { soal:'Tembung "pertapa" asale saka basa apa?', p:['Jawa','Melayu','Arab','Sanskerta'], b:3 },
-    { soal:'Kategori apa crita "Jaka Tarub"?', p:['Petualangan','Asal-Usul','Romantis','Mitologi'], b:3 },
-  ],
-  4: [
-    { soal:'Apa sing dijaluk Yuyu Kangkang marang Klenting kanggo nyabrang kali?', p:['Emas berlian','Diambung (dicium)','Hadiah panganan','Janji menikah'], b:1 },
-    { soal:'Apa artine tembung "reca"?', p:['Permata berharga','Senjata pusaka','Arca; patung saka watu utawa logam','Mahkota raja'], b:2 },
-    { soal:'Kutuk Bandung Bondowoso ngubah Roro Jonggrang dadi apa?', p:['Wit gedhé','Reca ing candi sewu','Bidadari langit','Macan putih'], b:1 },
-    { soal:'Tembung "randha" asale saka basa apa?', p:['Jawa Kuno','Melayu','Arab','Sanskerta'], b:0 },
-    { soal:'Apa artine "nom-noman"?', p:['Wong tuwa wicaksana','Pemuda; orang sing isih enom','Bocah wadon ayu','Pertapa sakti'], b:1 },
-    { soal:'Crita "Roro Jonggrang" kalebu kategori apa?', p:['Petualangan','Asal-Usul','Romantis','Mitologi'], b:1 },
-    { soal:'Apa bedane "makhluk alus" lan "raseksa"?', p:['Ora ana bedane','Makhluk alus=jin/roh, raseksa=raksasa','Makhluk alus=raksasa, raseksa=jin','Padha wae'], b:1 },
-    { soal:'Tembung "yuyu" ing basa Jawa artine apa?', p:['Manuk cilik','Kepiting air tawar','Iwak kali','Kodhok ijo'], b:1 },
-  ],
-  5: [
-    { soal:'Apa artine "omah-omah"?', p:['Mbangun omah','Omah-omah; nikah','Pindhah omah','Adol omah'], b:1 },
-    { soal:'Ing crita endi Purbasari dadi tokoh utama?', p:['Timun Mas','Jaka Tarub','Lutung Kasarung','Ande-Ande Lumut'], b:2 },
-    { soal:'Apa artine "wiji"?', p:['Banyu segar','Biji; benih tanduran','Godhong enom','Kembang wangi'], b:1 },
-    { soal:'Ing crita Ande-Ande Lumut, kenapa kakangé Klenting Kuning ditolak?', p:['Ora sregep','Gelem diambung Yuyu Kangkang','Ora ayu','Telat teka'], b:1 },
-    { soal:'Tembung "sewengi" artine apa?', p:['Siji minggu','Siji sasi','Sewengi; satu malam penuh','Siji taun'], b:2 },
-    { soal:'Barang pungkasan sing dibuwang Timun Mas marang raseksa yaiku?', p:['Wiji timun','Jarum','Uyah','Trasi'], b:3 },
-    { soal:'Apa tegese "jaman biyen"?', p:['Masa depan','Zaman saiki','Zaman biyen; masa lampau','Zaman perang'], b:2 },
-    { soal:'Sapa Lutung Kasarung sajatine?', p:['Raja tuwa','Pangeran saka kayangan kena kutuk','Roh penjaga alas','Bidadari nyamar'], b:1 },
+    { soal:'Aksara “ꦲꦤ ꦧꦸꦏꦸ” diwaca…', p:['Ana buku','Ana meja','Tuku buku','Buku anyar'], b:0 },
+    { soal:'Aksara “ꦤꦱꦶ ꦲꦔꦼꦠ꧀” diwaca…', p:['Nasi adhem','Nasi anget','Sega goreng','Mangan nasi'], b:1 },
+    { soal:'Aksara “ꦕꦫ ꦭꦫꦶ” diwaca…', p:['Cara mlaku','Cara mangan','Cara lari','Cara turu'], b:2 },
+    { soal:'Aksara “ꦗꦏ ꦧꦲꦒꦶꦪ” diwaca…', p:['Jaka bahagia','Jaka lara','Bocah bahagia','Wong bahagia'], b:0 },
+    { soal:'Aksara “ꦧꦸꦏꦸ ꦒꦼꦝꦺ” diwaca…', p:['Buku cilik','Buku anyar','Buku gedhe','Buku lawas'], b:2 },
+    { soal:'Aksara “ꦭꦫꦶ ꦕꦼꦥꦼꦠ꧀” diwaca…', p:['Lari alon','Lari cepet','Mlaku cepet','Mlumpat dhuwur'], b:1 },
+    { soal:'Aksara “ꦥꦱ ꦭꦩ” diwaca…', p:['Pasa lama','Pasa anyar','Pas ep','Pas panas'], b:0 },
+    { soal:'Aksara “ꦥꦱ ꦫꦩꦺ” diwaca…', p:['Pasa sepi','Pasa rame','Pas ep','Pas panas'], b:2 },
   ],
 };
 
