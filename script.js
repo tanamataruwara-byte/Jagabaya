@@ -59,7 +59,9 @@ const CERITA = [
 <p>Nalika Timun Mas wis umur enem taun buto ijo teka arep nagih janji mbok Srini, yaiku njupuk anake.
 Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <span class="kata-sulit">dom<span class="tooltip-kamus">jarum; alat kecil runcing untuk menjahit</span></span> dadi alas pring,  uyah dadi segara, lan trasi dadi <span class="kata-sulit">lendhut<span class="tooltip-kamus">lumpur; tanah becek</span></span> panas.
 <span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span> buto ijo kalah,  Timun Mas bisa ketemu karo Mbok Srini lan urip tentrem, dene buto ijo gagal njupuk Timun Mas.</p>
-`,
+<video width="320" height="240" controls>
+  <source src="video timun mas.mp4" type="video/mp4">.
+</video>`,
   },
   {
     id: 2,
@@ -74,7 +76,10 @@ Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <s
     Bandung Bondowoso ngomong : “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem nanging wedi nolak, mula kondha :“Yen pancen tresna tenan, gawekna aku sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> wektune <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span> wae!”.</p>
 <p>Bandung Bondowoso kasekten — dheweke njaluk tulung marang <span class="kata-sulit">makhluk alus<span class="tooltip-kamus">makhluk halus; jin, roh, atau setan</span></span>,  nanging sing dadi wis 999.
 Roro Jonggrang gugup terus prentah dayange :“Ayo,  lesung-lesung kae di thuthuki sing banter, obongen damen ben padhang kaya esuk!” Bareng krungu rame-rame, jin-jin padha mlayu.
-Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>: Roro Jonggrang dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>`,
+Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>: Roro Jonggrang dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>
+<video width="320" height="240" controls>
+  <source src="video roro jonggrang.mp4" type="video/mp4">.
+</video>`,
   },
   {
     id: 3,
@@ -88,7 +93,10 @@ Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span
     Malin ngomong : “Mak, aku arep <span class="kata-sulit">ngumbara<span class="tooltip-kamus">merantau; pergi jauh mencari kehidupan</span></span> ben dadi wong sugih.”</p>
 <p>Bareng wis sukses dadi <span class="kata-sulit">saudagar<span class="tooltip-kamus">pedagang kaya; orang yang berdagang besar</span></span>, Malin mulih numpak kapal gedhe karo bojone.
 Ibune langsung nyedhak karo nangis lan kondha :“Malin, iki ibu, Le !”Nanging Malin isin terus <span class="kata-sulit">nyentak<span class="tooltip-kamus">membentak; berbicara dengan nada keras</span></span> : “Aku dudu anakmu!”.
-Ibune sedih lan ndongake :“Gusti, yen pancen iki anakku, nyuwun tulung anakku dikutuk ben dadio watu.” Ora suwe ombak gedhe teka lan Malin Kundang <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span>.</p>`,
+Ibune sedih lan ndongake :“Gusti, yen pancen iki anakku, nyuwun tulung anakku dikutuk ben dadio watu.” Ora suwe ombak gedhe teka lan Malin Kundang <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span>.</p>
+<video width="320" height="240" controls>
+  <source src="video roro jonggrang.mp4" type="video/mp4">.
+</video>`,
   },
 ];
  
