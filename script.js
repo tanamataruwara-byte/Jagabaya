@@ -70,7 +70,7 @@ Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <s
     emoji: "🛕",
     warna: "#1A1A4E",
     warnaTerang: "#3030A0",
-    ringkasan: "Putri sing nolak lamaran raja dikutuk dadi reca kanggo nglengkapi sewu candhi sing meh rampung.",
+    ringkasan: "Putri sing nolak lamaran raja dikutuk dadi reca kanggo ngerampungke sewu candhi sing bakal rampung.",
     isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana satriya sekti jenenge Bandung Bondowoso sing menang perang nglawan Raja Baka.
     Bareng mlebu kraton, dheweke weruh Roro Jonggrang sing ayu banget.
     Bandung Bondowoso ngomong : “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem nanging wedi nolak, mula kondha :“Yen pancen tresna tenan, gawekna aku sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> wektune <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span> wae!”.</p>
