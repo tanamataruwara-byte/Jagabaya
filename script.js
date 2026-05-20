@@ -70,7 +70,7 @@ Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <s
     emoji: "🛕",
     warna: "#1A1A4E",
     warnaTerang: "#3030A0",
-    ringkasan: "Putri sing nolak lamaran raja dikutuk dadi arca kanggo nglengkapi sewu candhi sing meh rampung.",
+    ringkasan: "Putri sing nolak lamaran raja dikutuk dadi reca kanggo nglengkapi sewu candhi sing meh rampung.",
     isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana satriya sekti jenenge Bandung Bondowoso sing menang perang nglawan Raja Baka.
     Bareng mlebu kraton, dheweke weruh Roro Jonggrang sing ayu banget.
     Bandung Bondowoso ngomong : “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem nanging wedi nolak, mula kondha :“Yen pancen tresna tenan, gawekna aku sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> wektune <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span> wae!”.</p>
@@ -88,7 +88,7 @@ Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span
     emoji: "⛵",
     warna: "#2C4A1E",
     warnaTerang: "#4A7A30",
-    ringkasan: "Anak sing ninggalake ibune kanggo golek rejeki. Sawise sugih lan rabi, Malin bali nanging ora ngakoni ibune sing tuwa lan mlarat. Ibune ndonga Malin dikutuk dadi watu.",
+    ringkasan: "Bocah sing ninggalake ibune kanggo golek rejeki. Sawise sugih lan rabi, Malin bali nanging ora ngakoni ibune sing tuwa lan mlarat. Ibune ndonga Malin dikutuk dadi watu.",
     isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> nang Sumatera Barat ono bocah jenenge Malin Kundang urip karo ibune sing <span class="kata-sulit">mlarat<span class="tooltip-kamus">miskin; tidak punya banyak harta</span></span>,  ibune Malin Kundang jenenge Mande Rubayah.
     Malin ngomong : “Mak, aku arep <span class="kata-sulit">ngumbara<span class="tooltip-kamus">merantau; pergi jauh mencari kehidupan</span></span> ben dadi wong sugih.”</p>
 <p>Bareng wis sukses dadi <span class="kata-sulit">saudagar<span class="tooltip-kamus">pedagang kaya; orang yang berdagang besar</span></span>, Malin mulih numpak kapal gedhe karo bojone.
