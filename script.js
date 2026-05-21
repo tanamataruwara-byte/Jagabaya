@@ -49,6 +49,7 @@ const CERITA = [
     judul: "Timun Mas",
     kategori: "petualangan",
     emoji: "🥒",
+    image:"./assets/foto/foto timun mas.png",
     warna: "#1E3D0A",
     warnaTerang: "#3A6A18",
     ringkasan: "Bocah wadon sing lair saka wiji timun kudu ngadhepi raseksa sing njaluk dheweke kanthi cara sing ora disangka-sangka.",
@@ -68,6 +69,7 @@ Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <s
     judul: "Roro Jonggrang",
     kategori: "mitologi",
     emoji: "🛕",
+    image:"./assets/foto/foto roro jonggrang.png",
     warna: "#1A1A4E",
     warnaTerang: "#3030A0",
     ringkasan: "Putri sing nolak lamaran raja dikutuk dadi reca kanggo ngerampungke sewu candhi sing bakal rampung.",
@@ -86,6 +88,7 @@ Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span
     judul: "Malin Kundang",
     kategori: "asal-usul",
     emoji: "⛵",
+    image:"./assets/foto/foto malin kundang.png",
     warna: "#2C4A1E",
     warnaTerang: "#4A7A30",
     ringkasan: "Bocah sing ninggalake ibune kanggo golek rejeki. Sawise sugih lan rabi, Malin bali nanging ora ngakoni ibune sing tuwa lan mlarat. Ibune ndonga Malin dikutuk dadi watu.",
@@ -95,7 +98,7 @@ Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span
 Ibune langsung nyedhak karo nangis lan kondha :“Malin, iki ibu, Le !”Nanging Malin isin terus <span class="kata-sulit">nyentak<span class="tooltip-kamus">membentak; berbicara dengan nada keras</span></span> : “Aku dudu anakmu!”.
 Ibune sedih lan ndongake :“Gusti, yen pancen iki anakku, nyuwun tulung anakku dikutuk ben dadio watu.” Ora suwe ombak gedhe teka lan Malin Kundang <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span>.</p>
 <video width="320" height="240" controls>
-  <source src="video roro jonggrang.mp4" type="video/mp4">.
+  <source src="video malin kundang.mp4" type="video/mp4">.
 </video>`,
   },
 ];
@@ -418,12 +421,23 @@ document.querySelectorAll('a[href^="#"]').forEach(a => {
 /* ══════════════════════════════════════════════════════
    RENDER CARDS CERITA
 ══════════════════════════════════════════════════════ */
-function getIlustrasiCard(c) {
-  return `<div class="card-cerita-img-placeholder" style="background:linear-gradient(140deg,${c.warna} 0%,${c.warnaTerang} 100%);">
-    <span class="card-emoji">${c.emoji}</span>
-  </div>`;
-}
+// function getIlustrasiCard(c) {
+//   return `<div class="card-cerita-img-placeholder" style="background:linear-gradient(140deg,${c.warna} 0%,${c.warnaTerang} 100%);">
+//     <span class="card-emoji">${c.emoji}</span>
+//   </div>`;
+// }
  
+function getIlustrasiCard(c) {
+  const media = c.image
+    ? `<img class="card-cerita-img" src="${c.image}" alt="${c.judul}" loading="lazy">`
+    : `<span class="card-emoji">${c.emoji}</span>`;
+  return `
+    <div class="card-cerita-img-placeholder" style="background:linear-gradient(140deg,${c.warna} 0%,${c.warnaTerang} 100%);">
+      ${media}
+    </div>
+  `;
+}
+
 function getIlustrasiModal(c) {
   return `<div class="modal-img-placeholder" style="background:linear-gradient(140deg,${c.warna} 0%,${c.warnaTerang} 100%);">
     <span class="modal-emoji">${c.emoji}</span>
