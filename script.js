@@ -53,13 +53,13 @@ const CERITA = [
     warna: "#1E3D0A",
     warnaTerang: "#3A6A18",
     ringkasan: "Bocah wadon sing lair saka wiji timun kudu ngadhepi raseksa sing njaluk dheweke kanthi cara sing ora disangka-sangka.",
-    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> ono <span class="kata-sulit">randha<span class="tooltip-kamus">janda; wanita sing wis mati bojone</span></span>, jenenge mbok Srini.
-    Mbok Srini ketemu <span class="kata-sulit">raseksa<span class="tooltip-kamus">raksasa; makhluk besar jahat dalam dongeng</span></span> buto ijo.
-    Buto ijo kondha :“Yen kowe gelem nandur <span class="kata-sulit">wiji<span class="tooltip-kamus">biji; benih tanaman</span></span> iki, bakal lair anakmu, nanging yen wis gedhe kudu tak jupuk.” Senajan wedi, mbok Srini gelem amarga kepengin banget nduwe anak.
-    Woh timun mau mateng banjur dibelah, terus metu bayi wadon ayu dijenengi Timun Mas.</p>
-<p>Nalika Timun Mas wis umur enem taun buto ijo teka arep nagih janji mbok Srini, yaiku njupuk anake.
-Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <span class="kata-sulit">dom<span class="tooltip-kamus">jarum; alat kecil runcing untuk menjahit</span></span> dadi alas pring,  uyah dadi segara, lan trasi dadi <span class="kata-sulit">lendhut<span class="tooltip-kamus">lumpur; tanah becek</span></span> panas.
-<span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span> buto ijo kalah,  Timun Mas bisa ketemu karo Mbok Srini lan urip tentrem, dene buto ijo gagal njupuk Timun Mas.</p>
+    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> ana <span class="kata-sulit">randha<span class="tooltip-kamus">janda; wanita sing wis mati bojone</span></span> jenenge Mbok Srini. Dheweke kepengin banget duwe anak, nanging durung kasembadan. Ing sawijining dina, Mbok Srini ketemu <span class="kata-sulit">raseksa<span class="tooltip-kamus">raksasa; makhluk besar jahat dalam dongeng</span></span> jenenge Buto Ijo. Buto Ijo banjur menehi <span class="kata-sulit">wiji<span class="tooltip-kamus">biji; benih tanaman</span></span> timun lan kandha, “Yen kowe gelem nandur wiji iki, kowe bakal duwe anak. Nanging yen anakmu wis gedhe, kudu dakjupuk.”</p>
+
+<p>Sanajan wedi, Mbok Srini gelem nampa wiji mau. Sawise ditandur lan mateng, ana timun gedhe banget. Nalika dibelah, metu bayi wadon sing ayu. Bayi kuwi banjur dijenengi Timun Mas.</p>
+
+<p>Nalika Timun Mas umur enem taun, Buto Ijo teka arep nagih janji lan njupuk Timun Mas. Mbok Srini sedhih banget, nanging banjur menehi Timun Mas patang bungkusan kanggo nylametake awake. Bungkusan kuwi isine wiji timun, <span class="kata-sulit">dom<span class="tooltip-kamus">jarum; alat kecil runcing untuk menjahit</span></span>, uyah, lan trasi.</p>
+
+<p>Nalika dioyak Buto Ijo, Timun Mas mbuwang wiji timun nganti dadi alas timun. Banjur dom dibuwang dadi alas pring. Sawise kuwi uyah dibuwang dadi segara, lan pungkasan trasi dibuwang dadi <span class="kata-sulit">lendhut<span class="tooltip-kamus">lumpur; tanah becek</span></span> panas. Buto Ijo ora bisa ngliwati alangan-alangan mau lan <span class="kata-sulit">Pungkasané<span class="tooltip-kamus">pada akhirnya; akhir dari cerita</span></span> kalah.</p>
 <video width="320" height="240" controls>
   <source src="video timun mas.mp4" type="video/mp4">.
 </video>`,
@@ -73,12 +73,17 @@ Mbok Srini menehi Timun Mas patang wungkus yaiku wiji timun dadi alas timun,  <s
     warna: "#1A1A4E",
     warnaTerang: "#3030A0",
     ringkasan: "Putri sing nolak lamaran raja dikutuk dadi reca kanggo ngerampungke sewu candhi sing bakal rampung.",
-    isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana satriya sekti jenenge Bandung Bondowoso sing menang perang nglawan Raja Baka.
-    Bareng mlebu kraton, dheweke weruh Roro Jonggrang sing ayu banget.
-    Bandung Bondowoso ngomong : “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem nanging wedi nolak, mula kondha :“Yen pancen tresna tenan, gawekna aku sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> wektune <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span> wae!”.</p>
-<p>Bandung Bondowoso kasekten — dheweke njaluk tulung marang <span class="kata-sulit">makhluk alus<span class="tooltip-kamus">makhluk halus; jin, roh, atau setan</span></span>,  nanging sing dadi wis 999.
-Roro Jonggrang gugup terus prentah dayange :“Ayo,  lesung-lesung kae di thuthuki sing banter, obongen damen ben padhang kaya esuk!” Bareng krungu rame-rame, jin-jin padha mlayu.
-Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span>: Roro Jonggrang dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>
+    isi: `<p>Ing <span class="kata-sulit">jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span>, ana satriya sekti jenenge Bandung Bondowoso sing menang perang nglawan Raja Baka. Sawise mlebu ing kraton, Bandung Bondowoso weruh putri ayu jenenge Roro Jonggrang. Amarga kesengsem karo kaendahane, Bandung Bondowoso kepengin nggarwa Roro Jonggrang.</p>
+
+<p>Bandung Bondowoso banjur kandha, “Roro Jonggrang, aku kepengin kowe tak rabeni dadi bojoku.” Roro Jonggrang ora gelem, nanging dheweke wedi yen langsung nolak. Mula, dheweke menehi syarat sing angel banget, yaiku njaluk digawekake sewu <span class="kata-sulit">candhi<span class="tooltip-kamus">candi; bangunan suci/pemujaan</span></span> sajrone <span class="kata-sulit">sewengi<span class="tooltip-kamus">semalam; satu malam penuh</span></span>.</p>
+    
+<p>Bandung Bondowoso gelem nampa syarat kuwi. Kanthi kasektene, dheweke njaluk tulung marang <span class="kata-sulit">makhluk alus<span class="tooltip-kamus">makhluk halus; jin, roh, atau setan</span></span> kanggo mbangun candhi. Candhi-candhi mau cepet rampung, lan meh tekan cacah sewu. Nalika jumlah candhi wis 999, Roro Jonggrang dadi gugup.</p>
+    
+<p>Roro Jonggrang banjur mrentah para dayange supaya nuthuk lesung kanthi banter lan ngobong damen supaya katon padhang kaya wayah esuk. Makhluk alus sing krungu swara lan weruh padhang mau padha ngira yen esuk wis teka, mula padha mlayu ninggalake pakaryane.</p>
+
+<p>Nalika Bandung Bondowoso ngerti yen Roro Jonggrang wis ngapusi, dheweke dadi nesu banget. Kanthi murka, dheweke ngucapake <span class="kata-sulit">kutuk<span class="tooltip-kamus">kutukan; hukuman gaib dari seseorang</span></span> marang Roro Jonggrang. Roro Jonggrang banjur malih dadi <span class="kata-sulit">reca<span class="tooltip-kamus">arca; patung dari batu atau logam</span></span> kanggo nglengkapi candhi kaping sewu.</p>
+
+<p>Miturut crita rakyat, reca Roro Jonggrang kuwi ana ing Candhi Prambanan nganti saiki.</p>
 <video width="320" height="240" controls>
   <source src="video roro jonggrang.mp4" type="video/mp4">.
 </video>`,
@@ -92,11 +97,19 @@ Nalika ngerti yen Roro Jonggrang sing ngapusi, dheweke murka lan ngucapake <span
     warna: "#2C4A1E",
     warnaTerang: "#4A7A30",
     ringkasan: "Bocah sing ninggalake ibune kanggo golek rejeki. Sawise sugih lan rabi, Malin bali nanging ora ngakoni ibune sing tuwa lan mlarat. Ibune ndonga Malin dikutuk dadi watu.",
-    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> nang Sumatera Barat ono bocah jenenge Malin Kundang urip karo ibune sing <span class="kata-sulit">mlarat<span class="tooltip-kamus">miskin; tidak punya banyak harta</span></span>,  ibune Malin Kundang jenenge Mande Rubayah.
-    Malin ngomong : “Mak, aku arep <span class="kata-sulit">ngumbara<span class="tooltip-kamus">merantau; pergi jauh mencari kehidupan</span></span> ben dadi wong sugih.”</p>
-<p>Bareng wis sukses dadi <span class="kata-sulit">saudagar<span class="tooltip-kamus">pedagang kaya; orang yang berdagang besar</span></span>, Malin mulih numpak kapal gedhe karo bojone.
-Ibune langsung nyedhak karo nangis lan kondha :“Malin, iki ibu, Le !”Nanging Malin isin terus <span class="kata-sulit">nyentak<span class="tooltip-kamus">membentak; berbicara dengan nada keras</span></span> : “Aku dudu anakmu!”.
-Ibune sedih lan ndongake :“Gusti, yen pancen iki anakku, nyuwun tulung anakku dikutuk ben dadio watu.” Ora suwe ombak gedhe teka lan Malin Kundang <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span>.</p>
+    isi: `<p><span class="kata-sulit">Jaman biyen<span class="tooltip-kamus">zaman dahulu; masa lampau</span></span> ana bocah jenenge Malin Kundang sing urip karo ibune, Mande Rubayah, ing Sumatera Barat. Urip kulawargane <span class="kata-sulit">mlarat<span class="tooltip-kamus">miskin; tidak punya banyak harta</span></span>. Malin Kundang kepengin ngowahi nasibe supaya dadi wong sugih.</p>
+    
+<p>Ing sawijining dina, Malin Kundang kandha, “Mak, aku arep ngumbara ben dadi wong sugih.” Senajan sedhih, Mande Rubayah ngidini anaké lunga lan ndongakake supaya slamet.</p>
+
+<p>Sawise pirang-pirang taun ngumbara, Malin Kundang kasil dadi <span class="kata-sulit">saudagar<span class="tooltip-kamus">pedagang kaya; orang yang berdagang besar</span></span> sugih. Dheweke nduweni kapal gedhe lan wis omah-omah karo wanita ayu. Ing sawijining wektu, Malin Kundang bali menyang desane.</p>
+
+<p>Nalika krungu anake wis bali, Mande Rubayah langsung nyedhak karo rasa bungah. Dheweke banjur kandha, “Malin, iki ibu, Le!” Nanging Malin Kundang isin ngakoni ibune amarga weruh kahanane sing mlarat. Malin malah <span class="kata-sulit">nyentak<span class="tooltip-kamus">membentak; berbicara dengan nada keras</span></span>, “Aku dudu anakmu!”</p>
+
+<p>Mande Rubayah sedhih banget krungu tembung kuwi. Kanthi ati remuk, dheweke ndedonga, “Gusti, yen pancen iki anakku, mugi diparingi piwales supaya sadar marang kaluputane.”</p>
+
+<p>Ora suwe, ombak gedhe lan badai teka. Kapal Malin Kundang rusak diterjang ombak. Miturut crita rakyat, Malin Kundang banjur <span class="kata-sulit">malih dadi watu<span class="tooltip-kamus">berubah menjadi batu; menjadi batu karena kutukan</span></span> amarga wis durhaka marang ibune.</p>
+
+<p>Crita iki menehi piwulang supaya tansah ngajeni lan ngabekti marang wong tuwa.</p>
 <video width="320" height="240" controls>
   <source src="video malin kundang.mp4" type="video/mp4">.
 </video>`,
