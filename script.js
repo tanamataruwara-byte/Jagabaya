@@ -157,7 +157,7 @@ const SOAL_KUIS = {
     { soal:'Aksara “ꦧꦸꦏꦸ ꦒꦼꦝꦺ” diwaca…', p:['Buku cilik','Buku anyar','Buku gedhe','Buku lawas'], b:2 },
     { soal:'Aksara “ꦭꦫꦶ ꦕꦼꦥꦼꦠ꧀” diwaca…', p:['Lari alon','Lari cepet','Mlaku cepet','Mlumpat dhuwur'], b:1 },
     { soal:'Aksara “ꦥꦱ ꦭꦩ” diwaca…', p:['Pasa lama','Pasa anyar','Pas ep','Pas panas'], b:0 },
-    { soal:'Aksara “ꦥꦱ ꦫꦩꦺ” diwaca…', p:['Pasa sepi','Pasa rame','Pas ep','Pas panas'], b:2 },
+    { soal:'Aksara “ꦥꦱ ꦫꦩꦺ” diwaca…', p:['Pasa sepi','Pasa rame','Pas ep','Pas panas'], b:1 },
   ],
 };
 
