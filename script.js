@@ -38,7 +38,7 @@ const KAMUS = {
    DATA CERITA
 ══════════════════════════════════════════════════════ */
 const LABEL_KAT = {
-  petualangan: "⚔ Petualangan",
+  ngulandara: "⚔ Ngulandara",
   "asal-usul": "🏛 Asal-Usul",
   mitologi:    "✨ Mitologi",
 };
@@ -47,7 +47,7 @@ const CERITA = [
   {
     id: 1,
     judul: "Timun Mas",
-    kategori: "petualangan",
+    kategori: "ngulandara",
     emoji: "🥒",
     image:"./assets/foto/foto timun mas.png",
     warna: "#1E3D0A",
@@ -120,9 +120,9 @@ const CERITA = [
    QUIZ — DATA LEVEL
 ══════════════════════════════════════════════════════ */
 const LEVEL_DATA = [
-  { id:1, nama:'Mudha',     sub:'Pemula',   emoji:'🌱', xpPer:10 },
-  { id:2, nama:'Trampil',   sub:'Terampil', emoji:'⚡', xpPer:12 },
-  { id:3, nama:'Wasis',     sub:'Mahir',    emoji:'🏛', xpPer:14 },
+  { id:1, nama:'Mudha',     sub:'Tembung',   emoji:'🌱', xpPer:10 },
+  { id:2, nama:'Trampil',   sub:'Carita', emoji:'⚡', xpPer:12 },
+  { id:3, nama:'Wasis',     sub:'Hanacaraka',    emoji:'🏛', xpPer:14 },
 ];
 
 /* ══════════════════════════════════════════════════════
